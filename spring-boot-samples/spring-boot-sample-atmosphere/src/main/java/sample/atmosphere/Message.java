@@ -31,6 +31,7 @@ public class Message {
 	}
 
 	public void setMessage(String message) {
+		System.out.println("Message: " + message);
 		this.message = message;
 	}
 
